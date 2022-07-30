@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+	<!-- Title and meta -->
+	<title>Animated Hidden Sidebar</title>
+	<meta name="robots" content="index,follow">
+	<meta name="description" content="Hidden sidebar template. Can be used to display widgets or other additional content.">
+
+	<!-- Website icons -->
+	<link rel="icon" href="img/favicon-32-32.png" sizes="32x32">
+	<link rel="icon" href="img/favicon-192-192.png" sizes="192x192">
+	<link rel="apple-touch-icon-precomposed" href="img/favicon-180-180.png">
+	<meta name="msapplication-TileImage" content="img/favicon-270-270.png">
+
+	<!-- Google fonts -->
+	<!-- Preconnect -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<!-- Merriweather: serif; weights: 400, 400 italic, 700, 700 italic. Montserrat: sans-serif; weights: 600, 600 italic, 700, 700 italic. -->
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,600;0,700;1,600;1,700&display=swap" rel="stylesheet">
+
+	<!-- CSS files -->
+	<!-- 1: normalize.css ( https://github.com/necolas/normalize.css ) -->
+	<link rel="stylesheet" href="css/normalize.css">
+	<!-- 2: Font Awesome Free Icons v6+ ( https://fontawesome.com/icons ) -->
+	<link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+	<!-- 3: Main stylesheet -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body><!-- The "mw-hidden-sidebar-shown" class is added to open the sidebar. The function for adding this class is in the /js/main.js file. -->
+
+<!-- main container with all site content -->
+<main class="mw-main-content mw-container">
+
+	<!-- test content: title -->
+	<h1 class="mw-page-title">Animated Hidden Sidebar<i class="fa-solid fa-right-long"></i></h1>
+	<!-- end: title -->
+
+	<!-- test content: image -->
+	<figure class="mw-featured-image mw-alignwide">
+		<!-- image size 1500x1000px -->
+		<img src="img/test-content-images/akin-cakiner-nkUFXi0JSX8-unsplash.jpg" alt="Alt Text">
+		<figcaption>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</figcaption>
+	</figure>
+	<!-- end: image -->
+
+	<!-- test content: text -->
+	<div class="mw-page-text">
+		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
+		<p>Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam accumsan lorem in dui. Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Nam pretium turpis et arcu.</p>
+		<p>Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Praesent adipiscing. Phasellus ullamcorper ipsum rutrum nunc. Nunc nonummy metus. Vestibulum volutpat pretium libero. Cras id dui. Aenean ut eros et nisl sagittis vestibulum. Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet feugiat, pede. Sed lectus.</p>
+		<p>Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo. Maecenas malesuada. Praesent congue erat at massa. Sed cursus turpis vitae tortor. Donec posuere vulputate arcu. Phasellus accumsan cursus velit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed aliquam, nisi quis porttitor congue, elit erat euismod orci, ac placerat dolor lectus quis orci. Phasellus consectetuer vestibulum elit.</p>
+	</div>
+	<!-- end: text -->
+
+	<!-- footer -->
+	<footer class="mw-page-footer"><a href="https://minimalweb.site/" target="_blank" rel="noopener noreferrer">Minimalweb.site</a> | Made with love in 2022. Thank you for your interest! Please follow me: <a href="https://www.youtube.com/channel/UCp9ujOH59KWymh4O5sc6JVA" target="_blank" rel="noopener noreferrer">YouTube</a>, <a href="https://github.com/alexey-trofimov" target="_blank" rel="noopener noreferrer">GitHub</a>. Image from <a href="https://unsplash.com/" target="_blank" rel="noopener noreferrer">Unsplash.com</a>. Demonstration in <a href="russian-language.html" target="_blank" rel="noopener noreferrer">Russian here</a>.</footer>
+	<!-- end: footer -->
+
+</main>
+<!-- end: main container with all site content -->
+
+<!-- show sidebar -->
+<div class="mw-show-hidden-sidebar">
+	<span class="mw-bars-icon">
+		<span class="mw-bars"></span>
+	</span>
+</div>
+<!-- end: show sidebar -->
+
+<!-- sidebar (hidden right sidebar) -->
+<aside class="mw-hidden-sidebar">
+
+	<!-- hide sidebar -->
+	<button type="button" class="mw-hide-sidebar mw-hide-sidebar-button" aria-label="Close Sidebar" title="Close Sidebar">
+		<i class="fa-solid fa-xmark"></i>
+	</button>
+	<!-- end: hide sidebar -->
+
+	<!-- sidebar content -->
+	<div class="mw-hidden-sidebar-content">
+
+		<!-- content example: menu -->
+		<nav class="mw-sidebar-menu">
+			<h3 class="mw-sidebar-menu-title">Menu:</h3>
+			<ul class="mw-sidebar-menu-list">
+				<li class="mw-current-menu-item"><a href="#">Homepage</a></li>
+				<li><a href="#">Submenu items</a>
+					<ul>
+						<li><a href="#">Submenu link 1</a></li>
+						<li><a href="#">Submenu link 2</a></li>
+						<li><a href="#">Submenu link 3</a>
+							<ul>
+								<li><a href="#">Submenu link 1</a></li>
+								<li><a href="#">Submenu link 2</a></li>
+							</ul>
+						</li>
+						<li><a href="#">Submenu link 4</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Menu item 1</a></li>
+				<li><a href="#">Menu item 2</a></li>
+				<li><a href="#">Menu item 3</a></li>
+			</ul>
+		</nav>
+		<!-- end: content example -->
+
+	</div>
+	<!-- end: sidebar content -->
+
+</aside>
+<!-- end: sidebar -->
+
+<!-- sidebar overlay -->
+<div class="mw-hidden-sidebar-overlay mw-hide-sidebar" title="Close Sidebar"></div>
+<!-- end: sidebar overlay -->
+
+<!-- JS files -->
+<!-- Placed at the end of the document so the pages load faster -->
+<!-- 1: jQuery 3.6.0 ( https://jquery.com/download/ ) -->
+<script src="js/jquery-3.6.0.min.js"></script>
+<!-- 2: Main js file -->
+<script src="js/main.js"></script>
+</body>
+</html>

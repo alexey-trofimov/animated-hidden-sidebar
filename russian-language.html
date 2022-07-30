@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+	<!-- Title and meta -->
+	<title>Скрытая боковая панель с анимацией</title>
+	<meta name="robots" content="index,follow">
+	<meta name="description" content="HTML-шаблон скрытой боковой панели. Он может быть использован для отображения виджетов или другого дополнительного контента.">
+
+	<!-- Website icons -->
+	<link rel="icon" href="img/favicon-32-32.png" sizes="32x32">
+	<link rel="icon" href="img/favicon-192-192.png" sizes="192x192">
+	<link rel="apple-touch-icon-precomposed" href="img/favicon-180-180.png">
+	<meta name="msapplication-TileImage" content="img/favicon-270-270.png">
+
+	<!-- Google fonts -->
+	<!-- Preconnect -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<!-- Merriweather: serif; weights: 400, 400 italic, 700, 700 italic. Montserrat: sans-serif; weights: 600, 600 italic, 700, 700 italic. -->
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,600;0,700;1,600;1,700&display=swap" rel="stylesheet">
+
+	<!-- CSS files -->
+	<!-- 1: normalize.css ( https://github.com/necolas/normalize.css ) -->
+	<link rel="stylesheet" href="css/normalize.css">
+	<!-- 2: Font Awesome Free Icons v6+ ( https://fontawesome.com/icons ) -->
+	<link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+	<!-- 3: Main stylesheet -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body><!-- The "mw-hidden-sidebar-shown" class is added to open the sidebar. The function for adding this class is in the /js/main.js file. -->
+
+<!-- main container with all site content -->
+<main class="mw-main-content mw-container">
+
+	<!-- test content: title -->
+	<h1 class="mw-page-title">Скрытая Боковая Панель<i class="fa-solid fa-right-long"></i></h1>
+	<!-- end: title -->
+
+	<!-- test content: image -->
+	<figure class="mw-featured-image mw-alignwide">
+		<!-- image size 1500x1000px -->
+		<img src="img/test-content-images/akin-cakiner-nkUFXi0JSX8-unsplash.jpg" alt="Alt Text">
+		<figcaption>Текст с описанием изображения.</figcaption>
+	</figure>
+	<!-- end: image -->
+
+	<!-- test content: text -->
+	<div class="mw-page-text">
+		<p><strong>Обычный заполняющий текст без смысла (или <em>Рыбный текст</em>)</strong>. Душа моя озарена неземной радостью, как эти чудесные весенние утра, которыми я наслаждаюсь от всего сердца. Я совсем один и блаженствую в здешнем краю, словно созданном для таких, как я. Я так счастлив, мой друг, так упоен ощущением покоя, что искусство мое страдает от этого. Ни одного штриха не мог бы я сделать, и никогда не был таким большим художником, как в эти минуты.</p>
+		<p>Когда от милой моей долины поднимается пар, и полдневное солнце стоит над непроницаемой чащей темного леса, и лишь редкий луч проскальзывает в его святая святых, а я лежу в высокой траве у быстрого ручья и, прильнув к земле, вижу тысячи всевозможных былинок и чувствую, как близок моему сердцу крошечный мирок, что снует между стебельками, наблюдаю эти неисчислимые, непостижимые разновидности червяков и мошек, и чувствую близость всемогущего, создавшего нас по своему подобию, веяние вселюбящего, судившего нам парить в вечном блаженстве, когда взор мой туманится, и все вокруг меня и небо надо мной запечатлены в моей душе, точно образ возлюбленной, - тогда, дорогой друг, меня часто томит мысль: "Ах! Как бы выразить, как бы вдохнуть в рисунок то, что так полно, так трепетно живет во мне, запечатлеть отражение моей души, как душа моя - отражение предвечного Бога!" Друг мой... Но нет! Мне не под силу это, меня подавляет величие этих явлений.</p>
+		<p>Душа моя озарена неземной радостью, как эти чудесные весенние утра, которыми я наслаждаюсь от всего сердца. Я совсем один и блаженствую в здешнем краю, словно созданном для таких, как я. Я так счастлив, мой друг, так упоен ощущением покоя, что искусство мое страдает от этого. Ни одного штриха не мог бы я сделать, и никогда не был таким большим художником, как в эти минуты...</p>
+	</div>
+	<!-- end: text -->
+
+	<!-- footer -->
+	<footer class="mw-page-footer"><a href="https://minimalweb.site/" target="_blank" rel="noopener noreferrer">Minimalweb.site</a> | Сделано с любовью в 2022. Большое спасибо за ваш интерес! Пожалуйста, подписывайтесь на меня: <a href="https://www.youtube.com/channel/UCp9ujOH59KWymh4O5sc6JVA" target="_blank" rel="noopener noreferrer">YouTube</a>, <a href="https://github.com/alexey-trofimov" target="_blank" rel="noopener noreferrer">GitHub</a>. Изображение от <a href="https://unsplash.com/" target="_blank" rel="noopener noreferrer">Unsplash.com</a>.</footer>
+	<!-- end: footer -->
+
+</main>
+<!-- end: main container with all site content -->
+
+<!-- show sidebar -->
+<div class="mw-show-hidden-sidebar">
+	<span class="mw-bars-icon">
+		<span class="mw-bars"></span>
+	</span>
+</div>
+<!-- end: show sidebar -->
+
+<!-- sidebar (hidden right sidebar) -->
+<aside class="mw-hidden-sidebar">
+
+	<!-- hide sidebar -->
+	<button type="button" class="mw-hide-sidebar mw-hide-sidebar-button" aria-label="Закрыть боковую панель" title="Закрыть боковую панель">
+		<i class="fa-solid fa-xmark"></i>
+	</button>
+	<!-- end: hide sidebar -->
+
+	<!-- sidebar content -->
+	<div class="mw-hidden-sidebar-content">
+
+		<!-- content example: menu -->
+		<nav class="mw-sidebar-menu">
+			<h3 class="mw-sidebar-menu-title">Меню:</h3>
+			<ul class="mw-sidebar-menu-list">
+				<li class="mw-current-menu-item"><a href="#">Главная</a></li>
+				<li><a href="#">Пункты подменю</a>
+					<ul>
+						<li><a href="#">Ссылка подменю 1</a></li>
+						<li><a href="#">Ссылка подменю 2</a></li>
+						<li><a href="#">Ссылка подменю 3</a>
+							<ul>
+								<li><a href="#">Ссылка подменю 1</a></li>
+								<li><a href="#">Ссылка подменю 2</a></li>
+							</ul>
+						</li>
+						<li><a href="#">Ссылка подменю 4</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Пункт меню 1</a></li>
+				<li><a href="#">Пункт меню 2</a></li>
+				<li><a href="#">Пункт меню 3</a></li>
+			</ul>
+		</nav>
+		<!-- end: content example -->
+
+	</div>
+	<!-- end: sidebar content -->
+
+</aside>
+<!-- end: sidebar -->
+
+<!-- sidebar overlay -->
+<div class="mw-hidden-sidebar-overlay mw-hide-sidebar" title="Закрыть боковую панель"></div>
+<!-- end: sidebar overlay -->
+
+<!-- JS files -->
+<!-- Placed at the end of the document so the pages load faster -->
+<!-- 1: jQuery 3.6.0 ( https://jquery.com/download/ ) -->
+<script src="js/jquery-3.6.0.min.js"></script>
+<!-- 2: Main js file -->
+<script src="js/main.js"></script>
+</body>
+</html>

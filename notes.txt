@@ -1,0 +1,32 @@
+--- Animated Hidden Sidebar ---
+
+--
+Some notes:
+--
+
+--
+Google fonts:
+--
+
+1. Merriweather: serif; Weights: 400, 400 italic, 700, 700 italic. Link: https://fonts.google.com/specimen/Merriweather
+font-family: 'Merriweather', serif;
+
+2. Montserrat: sans-serif; Weights: 600, 600 italic, 700, 700 italic. Link: https://fonts.google.com/specimen/Montserrat
+font-family: 'Montserrat', sans-serif;
+
+--
+Colors:
+--
+
+Body bg: #ffffff
+Content 1: #2a2b35
+Content 2: #474856
+Hover color: #757bda
+Gray colors: #f5f5f9 / #f3f3f6
+
+--
+Image sizes:
+--
+
+Original: 750x500px
+Recommended size: 1500x1000px
