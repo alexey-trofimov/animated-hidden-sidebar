@@ -1,6 +1,6 @@
 ## Animated Hidden Sidebar
 
-This is a simple and minimal hidden sidebar with animation when opened. Also this sidebar is fully responsive and looks good on mobile devices. The sidebar is great for displaying menus, widgets, or other additional content on your site. A live preview **demo** of the sidebar is available here: [Animated Hidden Sidebar - Demo](https://demo.minimalweb.site/animated-hidden-sidebar/). Demonstration in **Cyrillic** (Russian language): [Cyrillic Demo](https://demo.minimalweb.site/animated-hidden-sidebar/russian-language.html).
+This is a simple and minimal hidden sidebar with animation when opened. Also this sidebar is fully responsive and looks good on mobile devices. The sidebar is great for displaying menus, widgets, or other additional content on your site. A live preview **demo** of the sidebar is available here: [Animated Hidden Sidebar - Demo](https://demo.minimalweb.net/animated-hidden-sidebar/). Demonstration in **Cyrillic** (Russian language): [Cyrillic Demo](https://demo.minimalweb.net/animated-hidden-sidebar/russian-language.html).
 
 ### Some notes:
 
